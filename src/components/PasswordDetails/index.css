@@ -1,0 +1,84 @@
+.account-details-list {
+  list-style-type: none;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  margin: 20px;
+  min-width: 300px;
+}
+
+.stars-image {
+  width: 150px;
+}
+
+.list-description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-information-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.delete-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.website-name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 300;
+  margin: 5px;
+}
+
+.user-first-letter {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: bold;
+  background-color: #10b981;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
+.red {
+  background-color: #b91c1c;
+}
+.blue {
+  background-color: #7683cb;
+}
+
+.skyBlue {
+  background-color: #0ea5e9;
+}
+.white {
+  background-color: #ffffff;
+}
+.lightgreen {
+  background-color: #14b8a6;
+}
+.lightblue {
+  background-color: #5763a5;
+}

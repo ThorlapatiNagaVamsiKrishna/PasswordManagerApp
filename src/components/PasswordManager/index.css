@@ -1,0 +1,142 @@
+.password-manager-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.user-input-Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 30px;
+  flex-grow: 1;
+}
+.add-password-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  margin: 15px;
+  color: #f8fafc;
+}
+
+.vamsi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #f8fafc;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Roboto";
+}
+
+.user-input-content {
+  background-color: #f8fafc;
+  border: 1px solid #94a3b8;
+  border-left: none;
+  padding-left: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  height: 45px;
+  flex-grow: 1;
+}
+
+.user-input-logo {
+  background-color: #f8fafc;
+  border: 1px solid #94a3b8;
+  padding: 8px;
+  height: 45px;
+}
+
+.user-input-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  width: 140px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin: 15px;
+  height: 40px;
+  align-self: flex-end;
+}
+.password-manager-image {
+  min-width: 100px;
+  min-height: 100px;
+  flex-grow: 1;
+  max-width: 600px;
+  max-height: 450px;
+}
+
+.passwords-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px;
+  color: #f8fafc;
+}
+.passwords-manager-Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.password-information {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.horizontal-ruler {
+  width: 97%;
+  margin: 15px;
+}
+.checkbox-Container {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.checkbox {
+  height: 20px;
+  width: 30px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #f8fafc;
+}
+
+.user-account-details-Container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.no-password-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
